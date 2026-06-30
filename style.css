@@ -16,9 +16,24 @@
 }
 .skill-content{
     width: 50rem;
-
 }
+
 .skill-img{
     width: 12rem;
     height: 12rem;
+    object-fit: cover;
+
+}
+.exp-content{
+    width: 50rem;
+}
+.exp-content:hover{
+    width: 52rem;
+    transition-duration: 0.5s;
+}
+.exp-img{
+    width: 12rem;
+    height: 12rem;
+    object-fit: cover;
+
 }
