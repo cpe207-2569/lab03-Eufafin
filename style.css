@@ -15,7 +15,9 @@
     width: auto;
 }
 .skill-content{
-    width: 50rem;
+    max-width: 50rem;
+    min-width: 25rem;
+    width: 50vw;
 }
 
 .skill-img{
@@ -25,10 +27,13 @@
 
 }
 .exp-content{
-    width: 50rem;
+    max-width: 50rem;
+    min-width: 25rem;
+    width: 50vw;
 }
 .exp-content:hover{
-    width: 52rem;
+    max-width: 52rem;
+    width: 52vw;
     transition-duration: 0.5s;
 }
 .exp-img{
